@@ -21,10 +21,15 @@
 下载Microsoft Visual C++ Redistributable for Visual Studio 2017，安装时选择安装"Visual C++生成工具"(但其右侧可选的子项全部选择不安装)
 
 第6步：安装AutoKeras 0.3.5
+
 (6.1) 在Windows的CMD里输入conda activate autok
+
 (6.2) 在Windows的CMD(autok)里输入pip install tensorflow
+
 (6.3) 在Windows的CMD(autok)里输入pip install keras
+
 (6.4) 在Windows的CMD(autok)里输入pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-win_amd64.whl
+
 (6.5) 在Windows的CMD(autok)里输入pip install autokeras=0.3.5
 
 
@@ -49,8 +54,13 @@ Download https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual
  and Install Microsoft Visual C++ Redistributable for Visual Studio 2017. During installing, select the "Visual C++ tools", but not selecting the sub-installtion.
 
 Step 6: Install AutoKeras 0.3.5
+
 (6.1) At Windows CMD, type "conda activate autok"
+
 (6.2) At Windows CMD(autok), type "pip install tensorflow"
+
 (6.3) At Windows CMD(autok), type "pip install keras"
+
 (6.4) At Windows CMD(autok), type "pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-win_amd64.whl"
+
 (6.5) At Windows CMD(autok), type "pip install autokeras=0.3.5"
