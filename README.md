@@ -1,7 +1,6 @@
 # Installing-Instruction-for-Autokeras
 # Autokeras安装指南
-- Installing Instruction for Python Autokeras 0.3.5 on Laptop of HP Compaq CQ60 106TX
-- 在HP Compaq CQ60 106TX笔记本上安装Python Autokeras 0.3.5
+- Installing Instruction for Python Autokeras 0.3.5
 
 ###############################
 ###############################
@@ -25,11 +24,10 @@
 (6.1) 在Windows的CMD里输入conda activate autok
 (6.2) 在Windows的CMD(autok)里输入pip install tensorflow
 (6.3) 在Windows的CMD(autok)里输入pip install keras
-(6.4) 在Windows的CMD(autok)里输入pip install graphviz
-(6.5) 在Windows的CMD(autok)里输入pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-win_amd64.whl或者输入conda install pytorch -c pytorch
-(6.6) 在Windows的CMD(autok)里输入pip install autokeras=0.3.5
+(6.4) 在Windows的CMD(autok)里输入pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-win_amd64.whl
+(6.5) 在Windows的CMD(autok)里输入pip install autokeras=0.3.5
 
-备注：不能安装autokeras 0.3.6，因为该版本需要安装tensorflow1.10及numpy1.15.4，而tesorflow1.10同时要求numpy版本不超过1.14.5，自相矛盾，因此会导致安装陷入无法解决的循环
+
 
 #################################
 ##English version
@@ -54,8 +52,5 @@ Step 6: Install AutoKeras 0.3.5
 (6.1) At Windows CMD, type "conda activate autok"
 (6.2) At Windows CMD(autok), type "pip install tensorflow"
 (6.3) At Windows CMD(autok), type "pip install keras"
-(6.4) At Windows CMD(autok), type "pip install graphviz"
-(6.5) At Windows CMD(autok), type "pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-win_amd64.whl" or type "conda install pytorch -c pytorch"
-(6.6) At Windows CMD(autok), type "pip install autokeras=0.3.5"
-
-备注：不能安装autokeras 0.3.6，因为该版本需要安装tensorflow1.10及numpy1.15.4，而tesorflow1.10同时要求numpy版本不超过1.14.5，自相矛盾，因此会导致安装陷入无法解决的循环
+(6.4) At Windows CMD(autok), type "pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-win_amd64.whl"
+(6.5) At Windows CMD(autok), type "pip install autokeras=0.3.5"
