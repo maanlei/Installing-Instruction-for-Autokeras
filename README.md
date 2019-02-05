@@ -5,6 +5,7 @@
 
 ###############################
 ###############################
+
 第1步：安装Anaconda
 
 从 https://www.anaconda.com/download/ 下载最新的Anaconda 64位版本，且安装过程中,适用用户选择Just Me，且“Add Anaconda to my PATH environment variable”选择勾上
@@ -43,6 +44,7 @@
 #################################
 ##English version
 #################################
+
 Step 1：Install Anaconda
 
 Download Anaconda 64bit from https://www.anaconda.com/download/ , during installing, choose "Just Me" and “Add Anaconda to my PATH environment variable”.
